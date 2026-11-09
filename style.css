@@ -72,3 +72,189 @@ body
   margin: 10px;
   border: 5px;
  }
+ #total
+ {
+   color:#C9474C;
+   }
+   #nav
+   {
+    text-align: center;
+    position:relative;
+    bottom:45px;
+   }
+  a
+ {
+  color:#C9474C;
+ }
+ #a1
+ {
+   background-color: #EFA0AD;
+     color:#684438;
+       border:none;
+         cursor: pointer;
+ }
+ #a2
+ {
+ background-color: #EFA0AD;
+ color:#684438;
+ border:none;
+ cursor: pointer;
+ }
+#a3
+{
+background-color: #EFA0AD;
+color:#684438;
+border:none;
+cursor: pointer;
+}                     
+ #a4
+ {
+   background-color: #EFA0AD;
+   color:#684438;
+   border:none;
+   cursor: pointer;
+ }
+ #a5
+ {
+  background-color: #EFA0AD;
+  color:#684438;
+  border:none;
+  cursor: pointer;
+ }
+ #a6
+{
+  background-color: #EFA0AD;
+  color:#684438;
+  border:none;
+  cursor: pointer;
+  }
+   #a7
+   {
+     background-color: #EFA0AD;
+     color:#684438;
+     border:none;
+     cursor: pointer;
+    }
+    #a8
+   {
+     background-color: #EFA0AD;
+     color:#684438;
+     border:none;
+     cursor: pointer;
+    }
+    #a9
+    {
+       background-color: #EFA0AD;
+       color:#684438;
+       border:none;
+       cursor: pointer;
+ }
+  #s1
+{
+    background-color: #EFA0AD;
+    color:#684438;
+    border:none;
+    cursor: pointer;
+}
+#s2
+{
+ background-color: #EFA0AD;
+ color:#684438;
+ border:none;
+ cursor: pointer;
+}
+#s3
+ {
+   background-color: #EFA0AD;
+   color:#684438;
+   border:none;       
+   cursor: pointer;
+                                       
+  }
+                    
+  #s4
+             
+  {
+                                                                    
+    background-color: #EFA0AD;                                                        
+    color:#684438;                                 
+    border:none;
+    cursor: pointer;
+                                                                   
+  }
+                                                        
+  #s5
+                                                            
+  {
+                                                         
+    background-color: #EFA0AD;                                               
+    color:#684438;                                            
+    border:none;                                       
+    cursor: pointer;
+                    
+  }
+                 
+  #s6
+                 
+  {
+                   
+    background-color: #EFA0AD;     
+    color:#684438; 
+    border:none;       
+    cursor: pointer;
+                   
+  }
+                          
+  #s7
+                      
+  {
+                   
+    background-color: #EFA0AD;      
+    color:#684438;  
+    border:none;   
+    cursor: pointer;              
+  }
+               
+  #s8
+                   
+  {
+                  
+    background-color: #EFA0AD;            
+    color:#684438;       
+    border:none;
+     cursor: pointer;               
+  }
+                 
+  #s9
+             
+  {
+              
+    background-color: #EFA0AD;      
+    color:#684438;         
+    border:none;   
+    cursor: pointer;
+                
+  }
+               
+  #valortotal
+                 
+  {
+                    
+    display:flex;   
+    flex-direction: row;        
+    justify-content:flex-start; 
+    position:absolute;                                           
+    left:80%;        
+    top:30px;
+    gap:15px;
+                  
+  }
+                   
+  
+                                                                                                                                                 {
+                  
+                  
+                  
+                  
+                  
+                  
