@@ -25,3 +25,11 @@ body
   border-radius:20px;
   border: 10px #E8D3C3 solid;
  }
+ .cupcakes
+ {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+  border: 20px;
+ }
