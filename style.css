@@ -44,6 +44,9 @@ body
  #final
  {
   background-color:#EFA0AD;
+  color:#684438;
+  border:none;
+  cursor: pointer;
 }
  .botao
   {
@@ -53,3 +56,11 @@ body
    margin: 10px;
    border:5px;
   }
+  .precos
+  {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 5px;
+   border: 5px;   
+}
