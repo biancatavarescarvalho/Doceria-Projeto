@@ -33,3 +33,23 @@ body
   margin: 30px;
   border: 20px;
  }
+ p
+ {
+   color:#684438;
+  }
+ #footer
+ {
+  background-color:#F6DDE2;
+ }
+ #final
+ {
+  background-color:#EFA0AD;
+}
+ .botao
+  {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 10px;
+   border:5px;
+  }
