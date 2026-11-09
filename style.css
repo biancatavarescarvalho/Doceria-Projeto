@@ -2,16 +2,21 @@ body
 {
   background-color:#FFF9F4;
 }
-#navbar
+.navbar
 {
-  background-color:#E8D3C3;
+  background-color:#F6DDE2;
+  display:flex;
+  flex-direction: row;
+  justify-content:10px space-between;
 }
-#nome
+.nome
 {
-    color:#C9474C;
+  color:#C9474C;
+  font-size: 35px;
 }
-#textobanner
+#inicio
 {
-    color:#684438;
-    
+  color:#684438;
+  font-size: 50px;
+  text-align: center;
 }
