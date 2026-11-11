@@ -278,12 +278,62 @@ cursor: pointer;
  .quantidade
 
  {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 10px;
-  border:5px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 10px;
+   border:5px;
  }
+
+ #q1
+ {
+    color:#C9474C;
+ }
+
+ #q2
+ {
+    color:#C9474C;
+ }
+
+ #q3
+ {
+    color:#C9474C;
+ }
+
+ #q4
+ {
+    color:#C9474C;
+ }
+
+ #q5
+ {
+    color:#C9474C;
+ }
+
+ #q6
+ {
+    color:#C9474C;
+ }
+
+ #q7
+ {
+    color:#C9474C;
+ }
+
+ #q8
+ {
+    color:#C9474C;
+ }
+
+
+ #q9
+ {
+    color:#C9474C;
+ }
+
+
+
+ 
                                                                                                                                           
                   
                   
