@@ -197,6 +197,46 @@ function calculoSub(event)
                                                                                                                                                                                                                          
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
  }
-                                                                                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 }
+function finalCompra(event)
+{
+    let button = event.target.id;
+     sabor=document.getElementsByClassName('sabor').value
+            
+     when(button=='final')
+ {
+                         
+  pag= prompt("Digite a forma de pagamento:(cartão ou pix)");
+                                 
+  if (pag=='cartão')
+                                      
+    {
+                                                  
+      num=Number(prompt("Digite o número do cartão:"));
+                                                            
+    }
+                                                               
+    else if (pag=='pix')
+                                                                         
+      {
+                                                                                   
+        pix= prompt("O código pix é:000000,Pagamento realizado?");
+                                                                    
+      }
+                                                          
+      else
+                                                         
+        {
+                                                       
+          alert("Forma de pagamento não aceita")
+                                                       
+        }
+                                                       
+        document.getElementById('total').innerHTML="Volte sempre"
+                                                           
+        
+                                                          
+      }
+                                                       
+    }
