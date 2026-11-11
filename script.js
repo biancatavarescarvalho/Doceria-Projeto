@@ -118,3 +118,85 @@ function calculoSub(event)
       { 
         totalValor=totalValor-12.00
         document.getElementById('total').innerHTML="R$"+totalValor
+      }
+     else if(button=='s2')
+     {
+       totalValor=totalValor-13.50
+       document.getElementById('total').innerHTML="R$"+totalValor
+   }
+                                     
+   else if(button=='s3')
+                                      
+    {
+                   
+        totalValor=totalValor-13.00        
+        document.getElementById('total').innerHTML="R$"+totalValor
+                   
+    }
+                   
+    else if(button=='s4')
+                 
+    {
+                   
+          totalValor=totalValor-15.00        
+          document.getElementById('total').innerHTML="R$"+totalValor
+                 
+  
+      }
+               
+        else if(button=='s5')
+                
+      {
+                
+           totalValor=totalValor-13.50
+           document.getElementById('total').innerHTML="R$"+totalValor
+       }
+             
+         else if(button=='s6')
+          
+       {
+         totalValor=totalValor-11.50
+         document.getElementById('total').innerHTML="R$"+totalValor                  
+                                                                                                                              }
+      else if(button=='s7')
+        
+        {
+        
+          
+            totalValor=totalValor-11.50
+            
+            document.getElementById('total').innerHTML="R$"+totalValor
+            
+                                                                                                                                                                      
+        }
+            
+            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        else if (button=='s8')
+                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+{
+                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+      totalValor=totalValor-14.00                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+      document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  }
+                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+     else if (button=='s9')
+                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  {                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+     totalValor=totalValor-16.00                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+     document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+ }
+                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
