@@ -2,6 +2,7 @@ body
 {
   background-color:#FFF9F4;
 }
+
 .navbar
 {
   background-color:#F6DDE2;
@@ -9,22 +10,26 @@ body
   flex-direction: row;
   justify-content:10px space-between;
 }
+
 .nome
 {
   color:#C9474C;
   font-size: 35px;
 }
+
 #inicio
 {
   color:#684438;
   font-size: 50px;
   text-align: center;
 }
+
 .cup
 {
   border-radius:20px;
   border: 10px #E8D3C3 solid;
  }
+
  .cupcakes
  {
   display:flex;
@@ -33,76 +38,88 @@ body
   margin: 30px;
   border: 20px;
  }
+
  p
  {
    color:#684438;
-  }
+ }
+
  #footer
  {
   background-color:#F6DDE2;
  }
+
  #final
  {
   background-color:#EFA0AD;
   color:#684438;
   border:none;
   cursor: pointer;
-}
+ }
+
  .botao
-  {
+{
    display:flex;
    flex-direction: row;
    justify-content: space-around;
    margin: 10px;
    border:5px;
-  }
+ }
+
   .precos
-  {
+{
    display:flex;
    flex-direction: row;
    justify-content: space-around;
    margin: 5px;
    border: 5px;   
 }
+
 .sabores
-{
+ {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 10px;
   border: 5px;
  }
+
  #total
  {
    color:#C9474C;
-   }
-   #nav
-   {
+ }
+
+  #nav
+ {
     text-align: center;
     position:relative;
     bottom:45px;
-   }
+ }
+
   a
  {
   color:#C9474C;
  }
+
  #a1
  {
    background-color: #EFA0AD;
-     color:#684438;
-       border:none;
-         cursor: pointer;
+   color:#684438;
+   border:none;
+   cursor: pointer;
  }
+
  #a2
  {
- background-color: #EFA0AD;
- color:#684438;
- border:none;
- cursor: pointer;
+  background-color: #EFA0AD;
+  color:#684438;
+  border:none;
+  cursor: pointer;
  }
+
 #a3
 {
-background-color: #EFA0AD;
+ background-color: #EFA0AD;
 color:#684438;
 border:none;
 cursor: pointer;
@@ -114,6 +131,7 @@ cursor: pointer;
    border:none;
    cursor: pointer;
  }
+
  #a5
  {
   background-color: #EFA0AD;
@@ -121,34 +139,39 @@ cursor: pointer;
   border:none;
   cursor: pointer;
  }
+
  #a6
 {
   background-color: #EFA0AD;
   color:#684438;
   border:none;
   cursor: pointer;
-  }
-   #a7
-   {
-     background-color: #EFA0AD;
-     color:#684438;
-     border:none;
-     cursor: pointer;
-    }
-    #a8
-   {
-     background-color: #EFA0AD;
-     color:#684438;
-     border:none;
-     cursor: pointer;
-    }
-    #a9
-    {
-       background-color: #EFA0AD;
-       color:#684438;
-       border:none;
-       cursor: pointer;
  }
+
+   #a7
+ {
+    background-color: #EFA0AD;
+    color:#684438;
+    border:none;
+    cursor: pointer;
+  }
+
+    #a8
+ {
+    background-color: #EFA0AD;
+    color:#684438;
+    border:none;
+    cursor: pointer;
+ }
+
+    #a9
+{
+    background-color: #EFA0AD;
+    color:#684438;
+    border:none;
+    cursor: pointer;
+}
+
   #s1
 {
     background-color: #EFA0AD;
@@ -156,6 +179,7 @@ cursor: pointer;
     border:none;
     cursor: pointer;
 }
+
 #s2
 {
  background-color: #EFA0AD;
@@ -163,6 +187,7 @@ cursor: pointer;
  border:none;
  cursor: pointer;
 }
+
 #s3
  {
    background-color: #EFA0AD;
@@ -170,88 +195,146 @@ cursor: pointer;
    border:none;       
    cursor: pointer;
                                        
-  }
+}
                     
   #s4
              
-  {
+{
                                                                     
-    background-color: #EFA0AD;                                                        
-    color:#684438;                                 
-    border:none;
-    cursor: pointer;
+   background-color: #EFA0AD;                                                        
+   color:#684438;                                 
+   border:none;
+   cursor: pointer;
                                                                    
-  }
+ }
                                                         
   #s5
                                                             
-  {
+{
                                                          
-    background-color: #EFA0AD;                                               
-    color:#684438;                                            
-    border:none;                                       
-    cursor: pointer;
+   background-color: #EFA0AD;                                               
+   color:#684438;                                            
+   border:none;                                       
+   cursor: pointer;
                     
-  }
+}
                  
   #s6
                  
-  {
+{
                    
-    background-color: #EFA0AD;     
-    color:#684438; 
-    border:none;       
-    cursor: pointer;
+   background-color: #EFA0AD;     
+   color:#684438; 
+   border:none;       
+   cursor: pointer;
                    
-  }
+ }
                           
   #s7
                       
-  {
+ {
                    
-    background-color: #EFA0AD;      
-    color:#684438;  
-    border:none;   
-    cursor: pointer;              
-  }
+   background-color: #EFA0AD;      
+   color:#684438;  
+   border:none;   
+   cursor: pointer;              
+}
                
   #s8
                    
-  {
+{
                   
-    background-color: #EFA0AD;            
-    color:#684438;       
-    border:none;
-     cursor: pointer;               
-  }
+  background-color: #EFA0AD;            
+  color:#684438;       
+  border:none;
+  cursor: pointer;               
+}
                  
-  #s9
+#s9
              
-  {
+{
               
-    background-color: #EFA0AD;      
-    color:#684438;         
-    border:none;   
-    cursor: pointer;
+  background-color: #EFA0AD;      
+  color:#684438;         
+  border:none;   
+  cursor: pointer;
                 
-  }
+}
                
-  #valortotal
+ #valortotal
                  
-  {
+{
                     
-    display:flex;   
-    flex-direction: row;        
-    justify-content:flex-start; 
-    position:absolute;                                           
-    left:80%;        
-    top:30px;
-    gap:15px;
+  display:flex;   
+  flex-direction: row;        
+  justify-content:flex-start; 
+  position:absolute;                                           
+  left:80%;        
+  top:30px;
+  gap:15px;
                   
-  }
-                   
-  
-                                                                                                                                                 
+ }
+
+ .quantidade
+
+ {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 10px;
+   border:5px;
+ }
+
+ #q1
+ {
+    color:#C9474C;
+ }
+
+ #q2
+ {
+    color:#C9474C;
+ }
+
+ #q3
+ {
+    color:#C9474C;
+ }
+
+ #q4
+ {
+    color:#C9474C;
+ }
+
+ #q5
+ {
+    color:#C9474C;
+ }
+
+ #q6
+ {
+    color:#C9474C;
+ }
+
+ #q7
+ {
+    color:#C9474C;
+ }
+
+ #q8
+ {
+    color:#C9474C;
+ }
+
+
+ #q9
+ {
+    color:#C9474C;
+ }
+
+
+
+ 
+                                                                                                                                          
                   
                   
                   
