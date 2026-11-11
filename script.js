@@ -20,3 +20,93 @@ window.addEventListener("load", function()
      document.getElementById('s9').addEventListener("click", calculoSub);
      document.getElementById('final').addEventListener("click", finalCompra);
                                                           });
+     let totalValor=0;
+
+                                      
+     function calculoAd(event)
+                                               
+     {
+                                                      
+        let button = event.target.id;
+                                                                  
+                                                          
+     if (button=='a1')
+                                                                
+        {
+                                                                            
+          totalValor=totalValor+12.00
+          document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                  
+        }                                                                                  
+         else if (button=='a2')
+                                                                                 
+        {
+            totalValor=totalValor+13.50
+            document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                                                              
+                                                                                                                         
+       }
+                                                                                                                              
+         else if (button=='a3')
+                                                                                                                                  
+      {
+                                                                                                                                            
+         totalValor=totalValor+13.00
+                                                                                                                                             
+         document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                                                                                     
+      }
+                                                                                                                                                      
+      else if (button=='a4')
+                                                                                                                                                        
+     {
+                                                                                                                                                                
+      totalValor=totalValor+15.00
+      document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                                                                                                             
+      }
+                                                                                                         
+    else if(button=='a5')
+                                                                                            
+   {
+                                                                                                 
+    totalValor=totalValor+13.50
+    document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                          
+  }
+                                                                                        
+    else if (button=='a6')
+                                                                                 
+ {
+                                                                                     
+   totalValor=totalValor+11.50
+   document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                    
+}
+                                                                                     
+ else if(button=='a7')
+                                                                            
+{
+                                                                        
+     totalValor=totalValor+11.50
+     document.getElementById('total').innerHTML="R$"+totalValor
+                                                                             
+}
+                                                                                   
+else if (button=='a8')
+                                                                                  
+{
+                                                                              
+    totalValor=totalValor+14.00
+    document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                  
+}
+                                                                                  
+else if(button=='a9')
+                                                                                 
+{
+                                                                              
+   totalValor=totalValor+16.00
+   document.getElementById('total').innerHTML="R$"+totalValor
+                                                                                    
+}}
