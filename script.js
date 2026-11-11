@@ -42,87 +42,98 @@ window.addEventListener("load", function()
         let button = event.target.id;
                                                                   
                                                           
-     if (button=='a1')
+      if (button=='a1')
                                                                 
         {
-                                                                            
+          quant1=quant1+1
+          document.getElementById('q1').innerHTML=quant1                                                                  
           totalValor=totalValor+12.00
           document.getElementById('total').innerHTML="R$"+totalValor
                                                                                   
         }             
 
-         else if (button=='a2')
+       else if (button=='a2')
                                                                                  
         {
+            quant2=quant2+1
+            document.getElementById('q2').innerHTML=quant2
             totalValor=totalValor+13.50
             document.getElementById('total').innerHTML="R$"+totalValor
                                                                                                                               
                                                                                                                          
-       }
+        }
                                                                                                                               
-         else if (button=='a3')
+       else if (button=='a3')
                                                                                                                                   
-      {
-                                                                                                                                            
-         totalValor=totalValor+13.00
-                                                                                                                                             
+       {
+            
+         quant3=quant3+1
+         document.getElementById('q3').innerHTML=quant3
+         totalValor=totalValor+13.00                                                                                                                               
          document.getElementById('total').innerHTML="R$"+totalValor
                                                                                                                                                      
-      }
+       }
                                                                                                                                                       
       else if (button=='a4')
                                                                                                                                                         
-     {
-                                                                                                                                                                
-      totalValor=totalValor+15.00
-      document.getElementById('total').innerHTML="R$"+totalValor
+      {
+         quant4=quant4+1
+         document.getElementById('q4').innerHTML=quant4                                                                                                                                                
+         totalValor=totalValor+15.00
+         document.getElementById('total').innerHTML="R$"+totalValor
                                                                                                                                                                              
       }
                                                                                                          
-    else if(button=='a5')
+      else if(button=='a5')
                                                                                             
-   {
-                                                                                                 
-    totalValor=totalValor+13.50
-    document.getElementById('total').innerHTML="R$"+totalValor
+     {
+         quant5=quant5+1
+         document.getElementById('q5').innerHTML=quant5                                                                                          
+         totalValor=totalValor+13.50
+         document.getElementById('total').innerHTML="R$"+totalValor
                                                                                           
-  }
+     }
                                                                                         
-    else if (button=='a6')
+      else if (button=='a6')
                                                                                  
- {
-                                                                                     
-   totalValor=totalValor+11.50
-   document.getElementById('total').innerHTML="R$"+totalValor
+     {
+         quant6=quant6+1
+         document.getElementById('q6').innerHTML=quant6                                                                           
+         totalValor=totalValor+11.50
+         document.getElementById('total').innerHTML="R$"+totalValor
                                                                                     
-}
+     }
                                                                                      
- else if(button=='a7')
+      else if(button=='a7')
                                                                             
-{
-                                                                        
-     totalValor=totalValor+11.50
-     document.getElementById('total').innerHTML="R$"+totalValor
+     {
+         quant7=quant7+1
+         document.getElementById('q7').innerHTML=quant7                                                            
+         totalValor=totalValor+11.50
+         document.getElementById('total').innerHTML="R$"+totalValor
                                                                              
-}
+    }
                                                                                    
-else if (button=='a8')
+      else if (button=='a8')
                                                                                   
-{
-                                                                              
-    totalValor=totalValor+14.00
-    document.getElementById('total').innerHTML="R$"+totalValor
+    {
+        quant8=quant8+1
+        document.getElementById('q8').innerHTML=quant8                                                               
+        totalValor=totalValor+14.00
+        document.getElementById('total').innerHTML="R$"+totalValor
                                                                                   
-}
+    }
                                                                                   
-else if(button=='a9')
+     else if(button=='a9')
                                                                                  
-{
-                                                                              
-   totalValor=totalValor+16.00
-   document.getElementById('total').innerHTML="R$"+totalValor
+    {
+        quant9=quant9+1
+        document.getElementById('q9').innerHTML=quant9                                                             
+        totalValor=totalValor+16.00
+        document.getElementById('total').innerHTML="R$"+totalValor
                                                                                     
 }}
+
 function calculoSub(event)
 {
     let button = event.target.id;
