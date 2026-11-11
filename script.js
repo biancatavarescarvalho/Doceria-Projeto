@@ -113,4 +113,6 @@ else if(button=='a9')
 function calculoSub(event)
 {
     let button = event.target.id;
-        
+
+     if (button=='s1')
+         {       
