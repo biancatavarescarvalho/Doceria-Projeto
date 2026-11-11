@@ -115,4 +115,6 @@ function calculoSub(event)
     let button = event.target.id;
 
      if (button=='s1')
-         {       
+      { 
+        totalValor=totalValor-12.00
+        document.getElementById('total').innerHTML="R$"+totalValor
