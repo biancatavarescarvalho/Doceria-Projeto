@@ -134,131 +134,138 @@ window.addEventListener("load", function()
                                                                                     
 }}
 
-function calculoSub(event)
+     function calculoSub(event)
 {
-    let button = event.target.id;
+     let button = event.target.id;
 
-     if (button=='s1')
-      { 
+       if (button=='s1')
+     { 
+        quant1=quant1-1
+        document.getElementById('q1').innerHTML=quant1
         totalValor=totalValor-12.00
         document.getElementById('total').innerHTML="R$"+totalValor
-      }
+     }
 
-     else if(button=='s2')
+      else if(button=='s2')
      {
-       totalValor=totalValor-13.50
-       document.getElementById('total').innerHTML="R$"+totalValor
-   }
+        quant2=quant2-1
+        document.getElementById('q2').innerHTML=quant2
+        totalValor=totalValor-13.50
+        document.getElementById('total').innerHTML="R$"+totalValor
+     }
                                      
-   else if(button=='s3')
+      else if(button=='s3')
                                       
-    {
-                   
+     {
+        quant3=quant3-1
+        document.getElementById('q3').innerHTML=quant3
         totalValor=totalValor-13.00        
         document.getElementById('total').innerHTML="R$"+totalValor
                    
-    }
+     }
                    
-    else if(button=='s4')
+       else if(button=='s4')
                  
     {
-                   
-          totalValor=totalValor-15.00        
-          document.getElementById('total').innerHTML="R$"+totalValor
+        quant4=quant4-1
+        document.getElementById('q4').innerHTML=quant4          
+        totalValor=totalValor-15.00        
+        document.getElementById('total').innerHTML="R$"+totalValor
                  
   
-      }
+     }
                
         else if(button=='s5')
                 
-      {
-                
-           totalValor=totalValor-13.50
-           document.getElementById('total').innerHTML="R$"+totalValor
-       }
+    {
+         quant5=quant5-1
+         document.getElementById('q5').innerHTML=quant5       
+         totalValor=totalValor-13.50 
+         document.getElementById('total').innerHTML="R$"+totalValor
+
+    }
              
-         else if(button=='s6')
+       else if(button=='s6')
           
-       {
+    {
+         quant6=quant6-1
+         document.getElementById('q6').innerHTML=quant6
          totalValor=totalValor-11.50
-         document.getElementById('total').innerHTML="R$"+totalValor                  
-                                                                                                                              }
-      else if(button=='s7')
+         document.getElementById('total').innerHTML="R$"+totalValor     
+    }             
+                                                                                                                              
+       else if(button=='s7')
         
-        {
-        
-          
-            totalValor=totalValor-11.50
-            
-            document.getElementById('total').innerHTML="R$"+totalValor
+    {
+          quant7=quant7-1
+          document.getElementById('q7').innerHTML=quant7
+          totalValor=totalValor-11.50   
+          document.getElementById('total').innerHTML="R$"+totalValor
             
                                                                                                                                                                       
-        }
-            
-            
+    }    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-        else if (button=='s8')
-                                                                                                                                                                               
+        else if (button=='s8')                                                                                                                                                                          
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-{
+    {
                                                                                                                                                                                        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-      totalValor=totalValor-14.00                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-      document.getElementById('total').innerHTML="R$"+totalValor
+          quant8=quant8-1
+          document.getElementById('q8').innerHTML=quant8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+          totalValor=totalValor-14.00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+          document.getElementById('total').innerHTML="R$"+totalValor
                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  }
+     }
                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-     else if (button=='s9')
+         else if (button=='s9')
                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-  {                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-     totalValor=totalValor-16.00                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-     document.getElementById('total').innerHTML="R$"+totalValor
+    {                                                                                                                                                                                                      
+          quant9=quant9-1
+          document.getElementById('q9').innerHTML=quant9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+          totalValor=totalValor-16.00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+          document.getElementById('total').innerHTML="R$"+totalValor
                                                                                                                                                                                                                          
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
- }
+     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
 
-function finalCompra(event)
+     function finalCompra(event)
 {
-    let button = event.target.id;
+     let button = event.target.id;
      sabor=document.getElementsByClassName('sabor').value
             
-     when(button=='final')
- {
-                         
-  pag= prompt("Digite a forma de pagamento:(cartão ou pix)");
-                                 
-  if (pag=='cartão')
-                                      
+         when(button=='final')
     {
+                         
+        pag= prompt("Digite a forma de pagamento:(cartão ou pix)");
+                                 
+        if (pag=='cartão')
+                                      
+     {
                                                   
-      num=Number(prompt("Digite o número do cartão:"));
+        num=Number(prompt("Digite o número do cartão:"));
                                                             
-    }
+     }
                                                                
-    else if (pag=='pix')
+       else if (pag=='pix')
                                                                          
-      {
+    {
                                                                                    
-        pix= prompt("O código pix é:000000,Pagamento realizado?");
+      pix= prompt("O código pix é:000000,Pagamento realizado?");
                                                                     
-      }
+    }
                                                           
       else
                                                          
-        {
+    {
                                                        
-          alert("Forma de pagamento não aceita")
+       alert("Forma de pagamento não aceita")
                                                        
-        }
+    }
                                                        
-        document.getElementById('total').innerHTML="Volte sempre"
+      document.getElementById('total').innerHTML="Volte sempre"
                                                            
 } }
