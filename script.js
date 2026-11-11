@@ -9,18 +9,30 @@ window.addEventListener("load", function()
     document.getElementById('a7').addEventListener("click", calculoAd);
     document.getElementById('a8').addEventListener("click", calculoAd);
     document.getElementById('a9').addEventListener("click", calculoAd);
+
     document.getElementById('s1').addEventListener("click", calculoSub);
     document.getElementById('s2').addEventListener("click", calculoSub);
     document.getElementById('s3').addEventListener("click", calculoSub);
     document.getElementById('s4').addEventListener("click", calculoSub);
-     document.getElementById('s5').addEventListener("click", calculoSub);
-     document.getElementById('s6').addEventListener("click", calculoSub);
-     document.getElementById('s7').addEventListener("click", calculoSub);
-     document.getElementById('s8').addEventListener("click", calculoSub);
-     document.getElementById('s9').addEventListener("click", calculoSub);
-     document.getElementById('final').addEventListener("click", finalCompra);
-                                                          });
+    document.getElementById('s5').addEventListener("click", calculoSub);
+    document.getElementById('s6').addEventListener("click", calculoSub);
+    document.getElementById('s7').addEventListener("click", calculoSub);
+    document.getElementById('s8').addEventListener("click", calculoSub);
+    document.getElementById('s9').addEventListener("click", calculoSub);
+
+    document.getElementById('final').addEventListener("click", finalCompra);
+ });
+
      let totalValor=0;
+     let quant1=0;
+     let quant2=0;
+     let quant3=0;
+     let quant4=0;
+     let quant5=0;
+     let quant6=0;
+     let quant7=0;
+     let quant8=0;
+     let quant9=0;
 
                                       
      function calculoAd(event)
@@ -37,7 +49,8 @@ window.addEventListener("load", function()
           totalValor=totalValor+12.00
           document.getElementById('total').innerHTML="R$"+totalValor
                                                                                   
-        }                                                                                  
+        }             
+
          else if (button=='a2')
                                                                                  
         {
@@ -119,6 +132,7 @@ function calculoSub(event)
         totalValor=totalValor-12.00
         document.getElementById('total').innerHTML="R$"+totalValor
       }
+
      else if(button=='s2')
      {
        totalValor=totalValor-13.50
@@ -199,6 +213,7 @@ function calculoSub(event)
  }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
+
 function finalCompra(event)
 {
     let button = event.target.id;
@@ -235,8 +250,4 @@ function finalCompra(event)
                                                        
         document.getElementById('total').innerHTML="Volte sempre"
                                                            
-        
-                                                          
-      }
-                                                       
-    }
+} }
