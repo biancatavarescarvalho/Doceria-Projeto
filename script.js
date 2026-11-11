@@ -110,3 +110,7 @@ else if(button=='a9')
    document.getElementById('total').innerHTML="R$"+totalValor
                                                                                     
 }}
+function calculoSub(event)
+{
+    
+        
