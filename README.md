@@ -2,14 +2,14 @@
 
 Projeto *Front-End* website doceria
 
-##Técnologias utilizadas
+## Técnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
 
-##Como instalar e executar
+## Como instalar e executar
 
 1. Faça o download do repositório em formato ZIP.
 2. Extraia a pasta do projeto.
@@ -18,13 +18,13 @@ Projeto *Front-End* website doceria
 5. Selecione "Abrir com" e escolha seu navegador.
 6. O site será aberto e estará pronto para visualização. 
 
-##Demonstração 
+## Demonstração
 
 
 
 
 
-##Autor e contato
+## Autor e contato
 
 Nome:*Bianca Tavares Carvalho*
 [Meu linkedin](https://www.linkedin.com/in/biancatavarescarvalho/)
