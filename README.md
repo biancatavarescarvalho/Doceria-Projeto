@@ -26,7 +26,6 @@ Projeto *Front-End* website doceria
 
 
 
-
 ## Autor e contato
 
 Nome:*Bianca Tavares Carvalho*
