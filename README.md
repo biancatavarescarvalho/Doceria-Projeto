@@ -19,7 +19,10 @@ Projeto *Front-End* website doceria
 6. O site será aberto e estará pronto para visualização. 
 
 ## Demonstração
-
+<img src="imagens/print1.jpg">
+<img src="imagens/print2.jpg">
+<img src="imagens/print3.jpg">
+<img src="imagens/print4.jpg">
 
 
 
