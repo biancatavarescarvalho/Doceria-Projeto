@@ -235,7 +235,6 @@ window.addEventListener("load", function()
      function finalCompra(event)
 {
      let button = event.target.id;
-     sabor=document.getElementsByClassName('sabor').value
             
          when(button=='final')
     {
